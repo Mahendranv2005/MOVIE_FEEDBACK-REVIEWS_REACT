@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: rgb(51, 51, 51);
+}
+
+nav {
+  background-color: rgb(51, 51, 51);
+  padding: 10px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.form {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(40, 167, 69);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(33, 136, 56);
+}
+
+.Review-List {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.Review-Card {
+  background-color: rgb(248, 249, 250);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid rgb(0, 123, 255);
+  text-align: left;
+  border-radius: 4px;
+}
